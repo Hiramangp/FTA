@@ -1,0 +1,13 @@
+<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+	<tr>
+		<td>Module1</td><td>SubModule1</td><td>Action</td><td>Columns</td><td>SrNo</td><td>Module</td><td>Field1</td><td>Field2</td><td>ExpectedOutput</td><td>ActualOutput</td><td>Status</td><td>Time</td>
+	</tr><tr>
+		<td>//a[text()='test']</td><td>//a[text()='addition']</td><td>btnAdd</td><td>4</td><td>1</td><td>Masters</td><td>txtnum1</td><td>txtNum2</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>//a[text()='test']</td><td>//a[text()='addition']</td><td>btnAdd</td><td>4</td><td>2</td><td>Masters</td><td> </td><td>10</td><td>Enter  Number.</td><td>Num1 is not valid number</td><td bgcolor='#FFA07A'>Fail</td><td>3/17/2021 3:48:09 AM</td>
+	</tr><tr>
+		<td>//a[text()='test']</td><td>//a[text()='addition']</td><td>btnAdd</td><td>4</td><td>3</td><td>Masters</td><td>10</td><td>&nbsp;</td><td>PLease enter Num2</td><td>PLease enter Num1</td><td bgcolor='#FFA07A'>Fail</td><td>3/17/2021 3:48:12 AM</td>
+	</tr><tr>
+		<td>//a[text()='test']</td><td>//a[text()='addition']</td><td>btnAdd</td><td>4</td><td>4</td><td>Masters</td><td>10</td><td>25</td><td>&nbsp;</td><td>&nbsp;</td><td bgcolor='#8DDE84'>Pass</td><td>3/17/2021 3:48:15 AM</td>
+	</tr>
+</table>
